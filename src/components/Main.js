@@ -5,9 +5,7 @@ import axios from "axios";
 // import { useNavigate } from "react-router-dom";
 
 function Main() {
-  const coinAPI = "https://api.coinlore.net/api/tickers/?start=0&limit=50";
-  // let { navigate } = useNavigate();
-
+  const coinAPI = "https://api.coinlore.net/api/tickers/?start=0&limit=20";
   const [cryList, setCryList] = useState([]);
 
   useEffect(() => {

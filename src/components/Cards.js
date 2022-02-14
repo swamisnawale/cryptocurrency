@@ -14,8 +14,7 @@ function Cards({ coinSymbol, coinName, priceUSD, change1hrs, rank }) {
         <span className="usdSymbol">$ </span>
         <span className="usdPrice">{priceUSD}</span>
         <span className="perChange24hrs">
-          {change1hrs}%{" "}
-          <span className="subtitle"> change in last 60 min </span>
+          {change1hrs}%<span className="subtitle"> change in last 60 min </span>
         </span>
       </div>
     </div>
