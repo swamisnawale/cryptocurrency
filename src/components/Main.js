@@ -2,11 +2,11 @@ import "../App.css";
 import Cards from "./Cards";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function Main() {
-  const coinAPI = "https://api.coinlore.net/api/tickers/?start=0&limit=20";
-  let { navigate } = useNavigate();
+  const coinAPI = "https://api.coinlore.net/api/tickers/?start=0&limit=50";
+  // let { navigate } = useNavigate();
 
   const [cryList, setCryList] = useState([]);
 
